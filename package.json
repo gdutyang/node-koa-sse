@@ -1,0 +1,23 @@
+{
+  "name": "node-koa-sse",
+  "version": "1.0.0",
+  "description": "基于node.js和koa的Server-Sent Events(SSE)实现",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "node",
+    "koa",
+    "sse"
+  ],
+  "author": "yangZheng",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.14.2",
+    "koa-body": "^6.0.1",
+    "koa-router": "^12.0.0",
+    "nodemon": "^3.1.0",
+    "stream": "0.0.3"
+  }
+}
